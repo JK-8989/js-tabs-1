@@ -9,6 +9,11 @@
   text-decoration: none;
   margin-bottom: 50px;
 }
+#tab-content {
+ border-top: 2px solid grey;
+ line-height: 1.5;
+ padding-bottom: 200px;
+}
 a { 
   all: unset;
   padding: 10px 20px;
