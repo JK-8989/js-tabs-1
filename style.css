@@ -1,7 +1,6 @@
 .tab-wrapper {
   margin: 50px 30px 30px 30px;
 }
-
 .tab-menu {
   display: flex;
   justify-content: center;
@@ -10,14 +9,11 @@
   margin-bottom: 50px;
   padding-left: 0;
 }
-
 #tab-content {
   border-top: 2px solid grey;
   line-height: 1.8;
   word-spacing: 0.1em;
   padding-bottom: 200px;
-  /* text-align: justify; */
-  /* white-space: pre-line; */
 }
 #tab-content > div {
   display: none;
@@ -28,14 +24,16 @@ a {
   padding: 10px 20px;
   margin: 0 30px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, 
+              rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 a:hover {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+              rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+              rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .tab-menu li a.active {
-  background-color: rgba(74, 74, 74, 0.652);
+  background-color: rgba(74, 74, 74, 0.6);
   color: #fff;
 }
 h2 {
